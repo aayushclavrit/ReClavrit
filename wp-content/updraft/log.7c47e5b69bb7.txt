@@ -1,0 +1,191 @@
+0000.001 () Opened log file at time: Fri, 05 Apr 2024 07:08:29 +0000 on https://staging.tourtideplanner.com
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.2 WP: 6.5 PHP: 8.1.27 (litespeed, Linux in-mum-web1258.main-hosting.eu 4.18.0-513.11.1.lve.el8.x86_64 #1 SMP Thu Jan 18 16:21:02 UTC 2024 x86_64) MySQL: 10.11.7-MariaDB-cll-lve (max packet size=1073741824) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 4.2M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.001 () Free space on disk containing Updraft's temporary directory: 6347732.8 MB
+0000.015 () Restore setup, now closing connection and starting restore over AJAX.
+0000.001 () Opened log file at time: Fri, 05 Apr 2024 07:08:30 +0000 on https://staging.tourtideplanner.com
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.2 WP: 6.5 PHP: 8.1.27 (litespeed, Linux in-mum-web1258.main-hosting.eu 4.18.0-513.11.1.lve.el8.x86_64 #1 SMP Thu Jan 18 16:21:02 UTC 2024 x86_64) MySQL: 10.11.7-MariaDB-cll-lve (max packet size=1073741824) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 3M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.001 () Free space on disk containing Updraft's temporary directory: 6347731.7 MB
+0000.002 () Ensuring WP_Filesystem is setup for a restore
+0000.002 () WP_Filesystem is setup and ready for a restore
+0000.003 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_e_events","wp_e_submissions","wp_e_submissions_actions_log","wp_e_submissions_values"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.004 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.004 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.005 () Entity: db
+0000.005 () restore_backup(backup_file=backup_2024-04-05-0703_Aron_Web_Solutions_e0e47a119a44-db.gz, type=db, info=a:0:{}, last_one=)
+0000.005 () Unpacking backup... (backup_2024-04-05-0703_Aron_Web_Solutions_e0e47a119a44-db.gz, 1.1 Mb)
+0000.005 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.007 () Database successfully unpacked
+0000.007 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.007 () Using direct MySQL access; value of use_mysqli is: 1
+0000.008 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.039 () Max packet size: 1024 MB
+0000.039 () Entering maintenance mode
+0000.039 () Enabling Maintenance mode&#8230;
+0000.046 () Backup of: http://localhost/aron-web-solutions
+0000.062 () Content URL: http://localhost/aron-web-solutions/wp-content
+0000.062 () Uploads URL: http://localhost/aron-web-solutions/wp-content/uploads
+0000.062 () Old table prefix: wp_
+0000.062 () Old ABSPATH: C:\xampp\htdocs\aron-web-solutions/
+0000.062 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.062 () Site information: multisite=0
+0000.062 () Site information: sql_mode=NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.062 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.063 () New table prefix: iw_
+0000.078 () Processing table (InnoDB): wp_options - will restore as: iw_options
+0000.167 () Atomic restore: dropping original table (wp_options)
+0000.183 () Atomic restore: renaming new table (iw_options) to final table name (wp_options)
+0000.184 () Restoring prior UD configuration (table: wp_options; keys: 102)
+0000.213 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.213 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.213 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.213 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.213 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.213 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.219 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.222 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.223 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.235 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, wp-content/plugins/updraftplus/options.php)
+0000.235 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, wp-content/plugins/updraftplus/options.php)
+0000.270 () Search and replacing table: wp_options: rows: 359
+0000.291 () Incomplete object detected in database: Elementor\Core\Logger\Items\PHP; Search and replace will be skipped for these entries
+0000.291 () Incomplete object detected in database: Elementor\Core\Logger\Items\JS; Search and replace will be skipped for these entries
+0000.301 () Incomplete object detected in database: Astra_Builder_Header; Search and replace will be skipped for these entries
+0000.301 () Incomplete object detected in database: Astra_Builder_Footer; Search and replace will be skipped for these entries
+0000.317 () Processing table (InnoDB): wp_users - will restore as: iw_users
+0000.338 () Atomic restore: dropping original table (wp_users)
+0000.350 () Atomic restore: renaming new table (iw_users) to final table name (wp_users)
+0000.353 () Search and replacing table: wp_users: rows: 1
+0000.353 () Processing table (InnoDB): wp_usermeta - will restore as: iw_usermeta
+0000.372 () Atomic restore: dropping original table (wp_usermeta)
+0000.385 () Atomic restore: renaming new table (iw_usermeta) to final table name (wp_usermeta)
+0000.388 () Search and replacing table: wp_usermeta: rows: 22
+0000.388 () Processing table (InnoDB): wp_commentmeta - will restore as: iw_commentmeta
+0000.406 () Atomic restore: dropping original table (wp_commentmeta)
+0000.417 () Atomic restore: renaming new table (iw_commentmeta) to final table name (wp_commentmeta)
+0000.419 () Search and replacing table: wp_commentmeta: rows: 0
+0000.419 () Processing table (InnoDB): wp_comments - will restore as: iw_comments
+0000.439 () Atomic restore: dropping original table (wp_comments)
+0000.450 () Atomic restore: renaming new table (iw_comments) to final table name (wp_comments)
+0000.453 () Search and replacing table: wp_comments: rows: 1
+0000.453 () Processing table (InnoDB): wp_links - will restore as: iw_links
+0000.469 () Atomic restore: dropping original table (wp_links)
+0000.485 () Atomic restore: renaming new table (iw_links) to final table name (wp_links)
+0000.488 () Search and replacing table: wp_links: rows: 0
+0000.488 () Processing table (InnoDB): wp_postmeta - will restore as: iw_postmeta
+0000.733 () Atomic restore: dropping original table (wp_postmeta)
+0000.747 () Atomic restore: renaming new table (iw_postmeta) to final table name (wp_postmeta)
+0000.752 () Search and replacing table: wp_postmeta: rows: 288
+0001.320 () Processing table (InnoDB): wp_posts - will restore as: iw_posts
+0001.396 () Database queries processed: 50 in 1.39 seconds
+0001.446 () Atomic restore: dropping original table (wp_posts)
+0001.463 () Atomic restore: renaming new table (iw_posts) to final table name (wp_posts)
+0001.472 () Skipping search/replace on GUID column in posts table
+0001.472 () Search and replacing table: wp_posts: rows: 434
+0001.684 () Processing table (InnoDB): wp_term_relationships - will restore as: iw_term_relationships
+0001.705 () Atomic restore: dropping original table (wp_term_relationships)
+0001.716 () Atomic restore: renaming new table (iw_term_relationships) to final table name (wp_term_relationships)
+0001.717 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0001.717 () Processing table (InnoDB): wp_term_taxonomy - will restore as: iw_term_taxonomy
+0001.735 () Atomic restore: dropping original table (wp_term_taxonomy)
+0001.745 () Atomic restore: renaming new table (iw_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.748 () Search and replacing table: wp_term_taxonomy: rows: 3
+0001.748 () Processing table (InnoDB): wp_termmeta - will restore as: iw_termmeta
+0001.766 () Atomic restore: dropping original table (wp_termmeta)
+0001.778 () Atomic restore: renaming new table (iw_termmeta) to final table name (wp_termmeta)
+0001.780 () Search and replacing table: wp_termmeta: rows: 0
+0001.780 () Processing table (InnoDB): wp_terms - will restore as: iw_terms
+0001.800 () Atomic restore: dropping original table (wp_terms)
+0001.814 () Atomic restore: renaming new table (iw_terms) to final table name (wp_terms)
+0001.816 () Search and replacing table: wp_terms: rows: 3
+0001.817 () Processing table (InnoDB): wp_e_events - will restore as: iw_e_events
+0001.833 () Atomic restore: dropping original table (wp_e_events)
+0001.845 () Atomic restore: renaming new table (iw_e_events) to final table name (wp_e_events)
+0001.848 () Search and replacing table: wp_e_events: rows: 1
+0001.848 () Processing table (InnoDB): wp_e_submissions - will restore as: iw_e_submissions
+0001.872 () Atomic restore: dropping original table (wp_e_submissions)
+0001.883 () Atomic restore: renaming new table (iw_e_submissions) to final table name (wp_e_submissions)
+0001.886 () Search and replacing table: wp_e_submissions: rows: 0
+0001.886 () Processing table (InnoDB): wp_e_submissions_actions_log - will restore as: iw_e_submissions_actions_log
+0001.905 () Atomic restore: dropping original table (wp_e_submissions_actions_log)
+0001.917 () Atomic restore: renaming new table (iw_e_submissions_actions_log) to final table name (wp_e_submissions_actions_log)
+0001.920 () Search and replacing table: wp_e_submissions_actions_log: rows: 0
+0001.920 () Processing table (InnoDB): wp_e_submissions_values - will restore as: iw_e_submissions_values
+0001.926 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0001.926 () Unlocking database and leaving maintenance mode
+0001.926 () Disabling Maintenance mode&#8230;
+0001.926 () Atomic restore: dropping original table (wp_e_submissions_values)
+0001.943 () Atomic restore: renaming new table (iw_e_submissions_values) to final table name (wp_e_submissions_values)
+0001.946 () Search and replacing table: wp_e_submissions_values: rows: 0
+0001.946 () Finished: lines processed: 78 in 1.94 seconds
+0001.946 () Cleaning up rubbish...
+0001.947 () Begin search and replace (updraftplus_restored_db)
+0001.947 () [Database-replace-site-url] Database: search and replace site URL
+0001.947 () Database search and replace: replace http://localhost/aron-web-solutions in backup dump with https://staging.tourtideplanner.com
+0001.947 () Database search and replace: replace http://www.localhost/aron-web-solutions in backup dump with https://staging.tourtideplanner.com
+0001.947 () Database search and replace: replace https://www.localhost/aron-web-solutions in backup dump with https://staging.tourtideplanner.com
+0001.947 () Database search and replace: replace https://localhost/aron-web-solutions in backup dump with https://staging.tourtideplanner.com
+0001.947 () Database search and replace: replace C:\xampp\htdocs\aron-web-solutions in backup dump with /home/u606889201/domains/tourtideplanner.com/public_html/staging
+0001.947 () Search and replacing table: wp_commentmeta: already done
+0001.947 () Search and replacing table: wp_comments: already done
+0001.947 () Search and replacing table: wp_e_events: already done
+0001.947 () Search and replacing table: wp_e_submissions: already done
+0001.948 () Search and replacing table: wp_e_submissions_actions_log: already done
+0001.948 () Search and replacing table: wp_e_submissions_values: already done
+0001.948 () Search and replacing table: wp_links: already done
+0001.948 () Search and replacing table: wp_options: already done
+0001.948 () Search and replacing table: wp_postmeta: already done
+0001.948 () Search and replacing table: wp_posts: already done
+0001.948 () Search and replacing table: wp_term_relationships: already done
+0001.948 () Search and replacing table: wp_term_taxonomy: already done
+0001.948 () Search and replacing table: wp_termmeta: already done
+0001.948 () Search and replacing table: wp_terms: already done
+0001.948 () Search and replacing table: wp_usermeta: already done
+0001.948 () Search and replacing table: wp_users: already done
+0001.951 () Entity: plugins
+0001.951 () restore_backup(backup_file=backup_2024-04-05-0703_Aron_Web_Solutions_e0e47a119a44-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:83:"/home/u606889201/domains/tourtideplanner.com/public_html/staging/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0001.951 () Unpacking backup... (backup_2024-04-05-0703_Aron_Web_Solutions_e0e47a119a44-plugins.zip, 24.7 MB)
+0001.952 () Unzipping backup_2024-04-05-0703_Aron_Web_Solutions_e0e47a119a44-plugins.zip to /home/u606889201/domains/tourtideplanner.com/public_html/staging/wp-content/upgrade/bebc6750/ using UpdraftPlus_ZipArchive, starting index 0
+0002.117 () Unzip progress: 1002 out of 4632 files (443 KB, plugins/elementor/app/modules/import-export/processes/export.php)
+0002.460 () Unzip progress: 2003 out of 4632 files (36.8 MB, plugins/elementor/modules/favorites/favorites-type.php)
+0002.700 () Unzip progress: 3004 out of 4632 files (55.1 MB, plugins/elementskit-lite/libs/framework/assets/images/favicon.svg)
+0003.025 () Unzip progress: 4005 out of 4632 files (86.3 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Http/Message/Header/Link.php)
+0003.148 () Unzip progress: 4632 out of 4632 files (90.1 MB, plugins/updraftplus/vendor/team-updraft/common-libs/src/updraft-tasks/class-updraft-tasks-activation.php)
+0003.150 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.151 () Moving old data: can potentially use wp_filesystem method / -old
+0003.151 () Moving old data out of the way...
+0003.216 () Top-level entities being moved: hostinger, updraftplus, index.php
+0003.218 () Moving unpacked backup into place...
+0003.434 () Top-level entities being moved: elementskit-lite, updraftplus, elementor, classic-editor, index.php, akismet, elementor-pro, hello.php
+0003.436 () Cleaning up rubbish...
+0003.438 () Entity: themes
+0003.438 () restore_backup(backup_file=backup_2024-04-05-0703_Aron_Web_Solutions_e0e47a119a44-themes.zip, type=themes, info=a:3:{s:4:"path";s:82:"/home/u606889201/domains/tourtideplanner.com/public_html/staging/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0003.438 () Unpacking backup... (backup_2024-04-05-0703_Aron_Web_Solutions_e0e47a119a44-themes.zip, 16.4 MB)
+0003.438 () Unzipping backup_2024-04-05-0703_Aron_Web_Solutions_e0e47a119a44-themes.zip to /home/u606889201/domains/tourtideplanner.com/public_html/staging/wp-content/upgrade/0b8d369d/ using UpdraftPlus_ZipArchive, starting index 0
+0003.672 () Unzip progress: 1002 out of 1371 files (15.9 MB, themes/astra/inc/lib/batch-processing/class-astra-wp-async-request.php)
+0003.791 () Unzip progress: 1371 out of 1371 files (30.7 MB, themes/twentytwentytwo/templates/single.html)
+0003.792 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.792 () Moving old data: can potentially use wp_filesystem method / -old
+0003.792 () Moving old data out of the way...
+0003.803 () Top-level entities being moved: twentytwentyfour, index.php, twentytwentytwo, twentytwentythree
+0003.804 () Moving unpacked backup into place...
+0003.860 () Top-level entities being moved: astra, twentytwentyfour, index.php, twentytwentytwo, twentytwentythree
+0003.861 () Cleaning up rubbish...
+0003.863 () Entity: uploads
+0003.863 () restore_backup(backup_file=backup_2024-04-05-0703_Aron_Web_Solutions_e0e47a119a44-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:83:"/home/u606889201/domains/tourtideplanner.com/public_html/staging/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0003.863 () Unpacking backup... (backup_2024-04-05-0703_Aron_Web_Solutions_e0e47a119a44-uploads.zip, 0.9 MB)
+0003.863 () Unzipping backup_2024-04-05-0703_Aron_Web_Solutions_e0e47a119a44-uploads.zip to /home/u606889201/domains/tourtideplanner.com/public_html/staging/wp-content/upgrade/ebc33299/ using UpdraftPlus_ZipArchive, starting index 0
+0003.879 () Unzip progress: 59 out of 59 files (983.4 KB, uploads/elementor/css/post-8.css)
+0003.879 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.879 () Moving old data: can potentially use wp_filesystem method / -old
+0003.879 () Moving old data out of the way...
+0003.880 () Moving unpacked backup into place...
+0003.882 () Cleaning up rubbish...
+0003.883 () Entity: others
+0003.883 () restore_backup(backup_file=backup_2024-04-05-0703_Aron_Web_Solutions_e0e47a119a44-others.zip, type=others, info=a:2:{s:4:"path";s:75:"/home/u606889201/domains/tourtideplanner.com/public_html/staging/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0003.883 () Unpacking backup... (backup_2024-04-05-0703_Aron_Web_Solutions_e0e47a119a44-others.zip, 0 MB)
+0003.883 () Unzipping backup_2024-04-05-0703_Aron_Web_Solutions_e0e47a119a44-others.zip to /home/u606889201/domains/tourtideplanner.com/public_html/staging/wp-content/upgrade/5ee9712f/ using UpdraftPlus_ZipArchive, starting index 0
+0003.884 () Unzip progress: 1 out of 1 files (28 B, index.php)
+0003.886 () Cleaning up rubbish...
+0003.893 () Elementor's CSS directory exists, and will be emptied (so that it will be automatically regenerated)
+0003.897 () Restore successful!
+0003.897 () Restore successful
